@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    margin-top: 1vh;
+    height: 98vh;
+    margin-right: 40px;
+}
+
+.right img {
+    height: 100%;
+} .right {
+    position: relative;
+    overflow: hidden;
+}
+
+.netw {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    width: 120px;
+    align-items: center;
+}
+
+.left {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.list {
+    text-align: right;
+}
+
+ul li {
+    list-style: none;
+    padding: 20px 35px;
+    transition: .3s;
+} ul li:hover {
+    cursor: pointer;
+    background-color: rgb(96, 96, 96);
+} ul li:hover a {
+    color: white;
+}
+
+.logo {
+    width: 100%;
+    background-color: rgb(96, 96, 96);
+    text-align: right;
+} .logo img {
+    margin: 20px 30px;
+    width: 25px;
+}
+
+.dancing {
+    position: absolute;
+    padding: 20px;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(96, 96, 96);
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} .dancing .arrow {
+    display: inline-block;
+    margin-left: 30px;
+} .menu {
+    position: absolute;
+    padding: 30px;
+    right: 0;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+} .menu div {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+}
